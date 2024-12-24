@@ -2,7 +2,7 @@
     # from ticket_classifier.vocabulary import Vocabulary
     # from ticket_classifier.utils import create_training_data
     # from ticket_classifier.ticket import Ticket
-import sys
+    import sys
     sys.path.append(r"C:\Users\velupula.sagarika\Documents\ticket-classifier-multinomial-nb")
     from ticket_classifier.classifier import TicketClassifier
     from ticket_classifier.vocabulary import Vocabulary
