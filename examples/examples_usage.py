@@ -24,6 +24,10 @@ def main():
         "My laptop is very slow.",
         "The internet connection is down.",
         "I need a new account",
+        "The internet is really slow", # Added
+        "My computer is taking too long", # Added
+        "I lost my password", # Added
+        "I need to print a document", # Added
     ]
 
     # Classify the tickets
