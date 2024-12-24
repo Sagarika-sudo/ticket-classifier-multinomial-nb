@@ -50,7 +50,8 @@ class TicketClassifier:
                     category_prob += math.log(
                         self.category_probabilities[category][word_index]
                     )
-
+        
+# Check if the current category has a higher probability
             if category_prob > best_prob:
                 best_prob = category_prob
                 best_category = category
