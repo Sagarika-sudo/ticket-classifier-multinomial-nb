@@ -14,5 +14,12 @@ def create_training_data() -> list[Ticket]:
         Ticket("The wifi is not working", "Network"),
         Ticket("I cannot log in", "Account"),
         Ticket("I forgot my password", "Account"),
+        Ticket("I can't print", "Printing"),
+        Ticket("The printer is not working", "Printing"),
+        Ticket("I need to reset my password", "Account"),
+        Ticket("This is very slow", "Performance"),
+        Ticket("The web page is not loading", "Network"),
+        Ticket("The laptop is crashing", "Performance"),
+    
     ]
     return training_data
